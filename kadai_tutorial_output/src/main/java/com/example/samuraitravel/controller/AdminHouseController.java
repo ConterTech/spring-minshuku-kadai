@@ -1,4 +1,4 @@
-package com.example.samuraitravel;
+package com.example.samuraitravel.controller;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -44,7 +44,7 @@ public class AdminHouseController {
         }
         
         model.addAttribute("housePage", housePage);
-        model.addAttribute("ketword", keyword);             
+        model.addAttribute("keyword", keyword);             
         
         return "admin/houses/index";
     } 
